@@ -130,7 +130,7 @@ import axios from "axios";
 import WebVideoSidebar from "./webvideoSidebar";
 import WebVideoTabs from "./webvideTabs";
 import WebVideoPlayer from "./webvideoPlayer";
-import WebVideoNotes from "./webvideoTab/WebvideoNotes";
+import WebVideoNotes from "./webvideoTab/webVideoNotes";
 import WebVideoResources from "./webvideoTab/WebvideoResources";
 import WebVideoAssignments from "./webvideoTab/WebvideoAssignments";
 import WebVideoDiscussion from "./webvideoTab/WebvideoDiscussion";
