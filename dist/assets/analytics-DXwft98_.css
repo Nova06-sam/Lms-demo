@@ -1,0 +1,1 @@
+.tabs>button{width:19%}@media screen and (min-width:300px)and (max-width:700px){.foot{flex-direction:column;gap:10px;text-align:center}.tabs{overflow:scroll;flex-direction:row;flex-wrap:nowrap;scroll-behavior:smooth}.grap{flex-direction:column;justify-content:center;align-items:center}.tabs::-webkit-scrollbar{display:none}}

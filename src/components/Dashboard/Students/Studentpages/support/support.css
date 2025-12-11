@@ -1,0 +1,13 @@
+.s-icon{
+    position: absolute;
+}
+
+@media screen and (max-width:700px) and (min-width:300px){
+   .faq-top > p ,.roll-down > p ,.support-btns > p , .support-btns > button{ 
+    font-size: 10px;
+}   
+.faq-top >span{
+    font-size: 10px;
+}
+
+}

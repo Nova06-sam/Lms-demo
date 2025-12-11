@@ -1,0 +1,111 @@
+/* src/pages/notification.css */
+.notifications-container {
+  animation: fadeIn 0.4s ease-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Smooth scrollbar */
+.notifications-container ::-webkit-scrollbar {
+  width: 8px;
+}
+
+.notifications-container ::-webkit-scrollbar-track {
+  background: #f7fafc;
+  border-radius: 10px;
+}
+
+.notifications-container ::-webkit-scrollbar-thumb {
+  background: #cbd5e0;
+  border-radius: 10px;
+}
+
+.notifications-container ::-webkit-scrollbar-thumb:hover {
+  background: #a0aec0;
+}
+
+/* Card hover effects */
+.notifications-container .shadow-md {
+  transition: all 0.3s ease;
+}
+
+.notifications-container .shadow-md:hover {
+  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
+
+/* Notification item animations */
+.notifications-container .group:hover {
+  transform: translateX(5px);
+  transition: transform 0.2s ease;
+}
+
+/* Loading animation */
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+.notifications-container .animate-bounce {
+  animation: bounce 1s infinite;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .notifications-container {
+    padding: 1rem;
+  }
+  
+  .notifications-container .grid-cols-1 {
+    grid-template-columns: 1fr;
+  }
+  
+  .notifications-container .flex-col {
+    flex-direction: column;
+  }
+  
+  .notifications-container .p-6 {
+    padding: 1rem;
+  }
+  
+  .notifications-container .gap-6 {
+    gap: 1rem;
+  }
+}
+
+/* Priority badge animations */
+@keyframes pulse {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.8;
+  }
+}
+
+.bg-red-100 {
+  animation: pulse 2s ease-in-out infinite;
+}
+
+.bg-yellow-100 {
+  animation: pulse 3s ease-in-out infinite;
+}
+
+/* Smooth transitions */
+.notifications-container * {
+  transition-property: color, background-color, border-color, transform, box-shadow;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 200ms;
+}

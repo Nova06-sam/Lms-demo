@@ -1,0 +1,21 @@
+@media screen and (min-width:300px) and (max-width:700px) {
+  .lev-txt > p{
+    font-size: 15px;
+  }
+  .lev-cover{
+    margin: 0;
+  }
+  .level-main{
+    padding: 20px;
+  }
+  .lev-in{
+    flex-direction: column;
+  }
+  .lead-left > p{
+     font-size: 15px;
+     padding: 10px;
+  }
+  .lead-txt , .lead-txt > p{
+    font-size: 12px;
+  }
+}

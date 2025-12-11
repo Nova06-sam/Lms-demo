@@ -1,0 +1,101 @@
+.studHeader {
+  z-index: 999;
+  position: fixed;
+  border: none;
+}
+/* search bar model */
+.s-bar {
+  position: relative;
+}
+.s-bar > input {
+  padding: 6px 30px;
+  border: 1px solid rgb(241, 235, 235);
+  border-radius: 20px;
+}
+.s-bar > input:focus{
+  border: 2px solid var(--sec);
+}
+.s-bar > .s-icon {
+  position: absolute;
+  top: 12px;
+  left: 10px;
+}
+.s-note {
+  width: 35px;
+  height: 35px;
+  border-radius: 10px;
+  position: relative;
+}
+.n-count {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  border-radius: 20px;
+  top: -2px;
+  right: -10%;
+}
+.d-set:hover > small {
+  color: white;
+}
+/* details */
+.s-details {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 1px solid black;
+  overflow: hidden;
+}
+.s-avatar{
+  width: 100%;
+  height: 100%;
+}
+.s-details > img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.s-drop {
+  position: fixed;
+  top: 70px;
+  right: 60px;
+  box-shadow: 0 0 5px rgb(70, 68, 68, 0.5);
+}
+.m-bar {
+  display: none;
+}
+.s-not-details{
+  position: fixed;
+  top:15%;
+  right: 10%;
+  z-index: 9;
+}
+.s-data-box:hover >.s-data-txt > small{
+  color: white;
+}
+/* . */
+@media screen and (max-width: 800px) and (min-width: 300px) {
+  .studHeader {
+    padding:15px 10px;
+  }
+    .s-bar {
+    display: none;
+  }
+  .s-details {
+    width: 40px;
+    height: 40px;
+  }
+  .s-logo > h1{
+    font-size: 16px ;
+}
+ .m-bar{
+    display: block;
+    &:hover{
+        box-shadow: 0 2px 3px rgb(41, 40, 40,0.4);
+    }
+ }
+ .s-drop {
+  position: fixed;
+  top: 75px;
+  right:10px;
+}
+}

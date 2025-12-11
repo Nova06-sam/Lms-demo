@@ -1,0 +1,17 @@
+.d-toback{
+    position: fixed;
+    left: 20px;
+    top:15px;
+    z-index: 999;
+    padding: 7px 20px;
+}
+
+@media screen and (min-width:300px) and (max-width:700px) {
+    .d-toback{
+    top:10px;
+    padding: 5px 20px;
+}
+.d-toback > span{
+    font-size: 15px;
+}
+}

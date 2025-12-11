@@ -1,0 +1,8 @@
+@media screen and (min-width:300px) and (max-width:700px) {
+     .f-choose{
+        flex-direction: column !important;
+     }
+     .f-c-box {
+        width: 100% !important;
+     }
+}

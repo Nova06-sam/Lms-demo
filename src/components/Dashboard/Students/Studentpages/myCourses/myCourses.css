@@ -1,0 +1,26 @@
+@media screen and (min-width:300px) and (max-width:450px){
+    .respon-h1{
+        font-size: 10px;
+        font-size: 15px;
+    }
+    .respon-btn {
+        margin-left: 49px;
+        font-size: 10px;
+    }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slideUp {
+  from { transform: translateY(20px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+
+.animate-fadeIn { animation: fadeIn 0.18s ease-out; }
+.animate-slideUp { animation: slideUp 0.2s ease-out; }
+.course-card {
+  transition: transform 0.2s, box-shadow 0.2s;
+}

@@ -1,0 +1,67 @@
+.s-details-cover{
+    width: 80%;
+}
+.student-bot > .c-details{
+    width: 70%;
+}
+.student-bot > .c-upcome{
+    width: 30%;
+}
+.card-overall > div{
+   width: 48%;
+}
+.upcome-box{
+    box-shadow: 0 0 4px rgb(68, 66, 66,0.4);
+}
+.add-box{
+    border: 2px dashed gray;
+}
+@media screen and (min-width:700px) and (max-width:900px){
+  .s-details-cover{
+    width: 100%;
+  }
+  .card-overall > div{
+   width: 100%;
+}   
+ .student-bot{
+    flex-direction: column;
+   }
+    .student-bot > .c-details{
+    width: 100%;
+   }
+   .student-bot > .c-upcome{
+    width: 100%;
+   }
+}
+
+@media screen and (min-width:300px) and (max-width:700px){
+   .s-details-cover{
+      width: 100%;
+      padding-top: 100px;
+   }
+   .student-bot{
+    flex-direction: column;
+   }
+   .student-bot > .c-details{
+    width: 100%;
+   }
+   .student-bot > .c-upcome{
+    width: 100%;
+   }
+   .card-box{
+    width: 100%;
+   }
+   .c-head > h2{
+    font-size: 18px;
+    text-align: center;
+   }
+   .c-head {
+    align-items: center;
+    padding: 10px;
+   }
+
+}
+
+.bar {
+  transition: height 0.5s ease;
+}

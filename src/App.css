@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+*{
+  text-transform: capitalize;
+  box-sizing: border-box;
+}
+
+:root{
+  --prime:#f9fafb;
+  --secp:#F9FAFB;
+  /* tail:gray:50 */
+  --sec:#2563eb;
+  /* tail:blue:600 */
+  --txt:#6b7280;
+  /* tail: gray-500*/
+  --h-txt:#111827;
+  /* tail:gray-900 */
+}
+button{
+  cursor: pointer;
+}
+.btns{
+  padding: 4px 13px;
+  border-radius: 20px;
+  background: var(--sec);
+  cursor: pointer;
+  color: var(--prime);
+}

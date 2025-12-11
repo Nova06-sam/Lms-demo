@@ -1,0 +1,14 @@
+.d-back{
+    width: 40px;
+    height: 35px;
+    border-radius: 20px;
+}
+.d-back:hover > .c-icon{
+    color:var(--prime);
+    animation: moves 1s infinite linear; 
+}
+@keyframes moves {
+    from{
+        transform: translateX(-5px);
+    }
+}

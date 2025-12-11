@@ -1,0 +1,1 @@
+.d-back{width:40px;height:35px;border-radius:20px}.d-back:hover>.c-icon{color:var(--prime);animation:moves 1s infinite linear}@keyframes moves{0%{transform:translate(-5px)}}@media screen and (min-width:300px)and (max-width:700px){.f-choose{flex-direction:column!important}.f-c-box{width:100%!important}}
