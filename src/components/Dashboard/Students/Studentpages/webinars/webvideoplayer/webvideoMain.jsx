@@ -130,10 +130,10 @@ import axios from "axios";
 import WebVideoSidebar from "./webvideoSidebar";
 import WebVideoTabs from "./webvideTabs";
 import WebVideoPlayer from "./webvideoPlayer";
-import WebVideoNotes from "./WebVideoTab/WebvideoNotes";
-import WebVideoResources from "./WebVideoTab/WebvideoResources";
-import WebVideoAssignments from "./WebVideoTab/WebvideoAssignments";
-import WebVideoDiscussion from "./WebVideoTab/WebvideoDiscussion";
+import WebVideoNotes from "./webvideoTab/WebvideoNotes";
+import WebVideoResources from "./webvideoTab/WebvideoResources";
+import WebVideoAssignments from "./webvideoTab/WebvideoAssignments";
+import WebVideoDiscussion from "./webvideoTab/WebvideoDiscussion";
 import LivePlayer from "../LivePlayer";
 // // import BACKEND_URL from "../../../../../../api/Api";
 
