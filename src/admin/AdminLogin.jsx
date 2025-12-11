@@ -11,7 +11,7 @@ import { toast, ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
-import "./AdminLogin.css";
+import "./Login.css";
 // // import BACKEND_URL from "../api/Api";
 
 export default function AdminLogin() {
